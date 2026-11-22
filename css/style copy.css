@@ -1,12 +1,11 @@
 /* ===== BRITTANY FONT ===== */
 @font-face {
   font-family: "Brittany Signature";
-  src: url("https://db.onlinewebfonts.com/t/b4d584ed0e53ba94a815f817690faab2.eot");
-  src: url("https://db.onlinewebfonts.com/t/b4d584ed0e53ba94a815f817690faab2.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/b4d584ed0e53ba94a815f817690faab2.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/b4d584ed0e53ba94a815f817690faab2.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/b4d584ed0e53ba94a815f817690faab2.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/b4d584ed0e53ba94a815f817690faab2.svg#Brittany Signature")format("svg");
+  src: local("Brittany Signature"),
+       url("../assets/fonts/BrittanySignature.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -355,7 +354,7 @@ h3 {
 
 /* Couple names dengan efek glow / pendar */
 .cover-names {
-  font-family: 'Brittany Signature', cursive, 'Great Vibes', sans-serif;
+  font-family: 'Brittany Signature', 'Great Vibes', cursive, sans-serif;
   font-size: clamp(3.8rem, 16vw, 6.5rem);
   line-height: 1.05;
   color: #1b302a;
@@ -371,7 +370,7 @@ h3 {
 }
 
 .amp-sign {
-  font-family: 'Brittany Signature', cursive, 'Great Vibes', sans-serif;
+  font-family: 'Brittany Signature', 'Great Vibes', cursive, sans-serif;
   font-size: .7em;
   color: #1b302a;
   /* Warna utama teks (misal hijau gelap/ink) */
