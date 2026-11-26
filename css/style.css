@@ -2,7 +2,7 @@
 @font-face {
   font-family: "Brittany Signature";
   src: local("Brittany Signature"),
-       url("../assets/fonts/BrittanySignature.ttf") format("truetype");
+    url("../assets/fonts/BrittanySignature.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -947,10 +947,12 @@ textarea {
 }
 
 .closing-img {
-  width: 126%;
+  width: 118%;
+  /* Opsional: turunkan dari 126% agar ruang atas lebih lega */
   max-width: none;
   height: auto;
-  margin-top: -14%;
+  margin-top: -2%;
+  /* Ubah dari -14% ke -2% atau 0% untuk menurunkan posisi foto */
   display: block;
   pointer-events: none;
   user-select: none;
